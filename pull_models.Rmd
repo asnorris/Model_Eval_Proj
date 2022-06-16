@@ -1,0 +1,38 @@
+---
+title: "Pulling Models"
+author: "Alexandra Norris"
+date: '2022-06-16'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Step 0}
+
+# Step 0: Pull model forecasts.
+
+## COVID-19 forecast hub: https://github.com/reichlab/covid19-forecast-hub
+
+# load package to view models
+library(covidHubUtils)
+
+# see the names of all models
+get_all_models()
+
+
+
+```
+
+```{r}
+
+## Zoltar forecast model archive: https://www.zoltardata.com/project/44
+
+
+
+## covidHubUtils package: http://reichlab.io/covidHubUtils/index.html
+
+```
+
+
